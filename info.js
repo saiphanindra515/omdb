@@ -28,7 +28,7 @@ $('#sub').click(function(){
        type: 'GET',
        dataType: 'json',
        async : true,
-       url : ' http://www.omdbapi.com/?apikey=bc109e14&t='+Title+ '&i='+Idnum+'&Season='+season+'',
+       url : ' https://www.omdbapi.com/?apikey=bc109e14&t='+Title+ '&i='+Idnum+'&Season='+season+'',
 
      success: (response) => {
 
@@ -64,7 +64,7 @@ $('#sub').click(function(){
      	     <br>
      	     imdbVotes :${response.imdbVotes}
      	     <br>
-     	     <a href="http://www.imdb.com/title/${response.imdbID}" target="_blank" class="btn btn-outline-success m-4">Imdb </a>
+     	     <a href="https://www.imdb.com/title/${response.imdbID}" target="_blank" class="btn btn-outline-success m-4">Imdb </a>
      	     
      	          	     </div>
 
